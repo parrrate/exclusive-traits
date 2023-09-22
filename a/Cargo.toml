@@ -1,0 +1,10 @@
+[package]
+name = "a"
+version.workspace = true
+edition.workspace = true
+publish.workspace = true
+
+[dependencies]
+a1.path = "../a1"
+a2.path = "../a2"
+common.path = "../common"
